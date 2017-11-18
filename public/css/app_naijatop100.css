@@ -1,0 +1,391 @@
+
+
+.rage-list h4{
+    color:brown;font-weight:bold;font-style:normal;font-family: "Comic Sans MS", cursive, sans-serif;
+}
+html, 
+body{height:100%;}
+/*
+header{
+	display:block;
+	position:relative;
+	width:auto;
+	height:auto;
+	padding:100px 0;
+	min-height:100%;
+	background:no-repeat centre centre;
+	background-attachment:scroll;
+	background-color:blue;
+	background-size:cover;
+	
+	
+}
+*/
+
+.navbar{
+    
+    height:40px;
+    margin-bottom:0px;
+    padding:0px; 
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+.navbar-brand img{color:white}
+.navbar-brand a{
+    color:white
+}
+
+section .col-sm-4 h3{color:black;}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding:80px;
+
+     background-image: url("aaarapower3.jpeg");
+
+    background-attachment: fixed;
+}
+ #myFig img {transition: 4s;}
+
+#myFig img:hover{ transform:scale(6) translate(-5px, -5px) rotate(10deg);}
+
+#myFig2 img{transition: 4s;}
+#myFig2 img:hover{ transform:scale(6) translate(-5px, -5px) rotate(10deg);}
+
+
+
+.img-responsive{
+    
+    margin-left:40px;
+    margin:0px auto;
+    border:1px solid white;
+  box-shadow:rgba(0,0,0,.5) 10px 10px 60px;
+}
+.fill-screen{
+   background-size:cover;
+    background-position:center;
+}
+
+
+
+
+.top img{
+    color:white;
+    width:20%;
+    height:20%;
+}
+.top text{
+    color:white;
+    
+}
+footer{
+    background-color:#333;
+    color:#ddd;
+    text-align:center;
+    padding: 20px;
+    
+    
+}
+aside{
+    background-color:#f7f7f7;
+        padding-top:40px;
+        text-align:center;
+    
+    
+}
+.range-list{
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.range-list h4{
+   color:navajowhite;
+    margin-bottom:40px;
+    font-weight:bold;
+}
+.range-list img{
+  width:100%;
+    height:100%;
+    max-width:140px;
+        max-height:60px;
+}
+#content-filler{
+    min-height:350px;
+    
+}
+
+
+#smoky h2{
+    
+    color:white;font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight:bold;
+}
+
+.range-title {
+ color:brown;font-weight:bold;font-style:normal;font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.sports-icon-list{
+ background-color:#333;
+    padding-bottom:40px;
+   
+}
+
+
+.sports-icon-list a{
+ color:white
+}
+.sports-icon-list a h6{
+margin-top: 2px;
+   
+    margin-bottom: 14px;
+}
+.sports-icon-list img{
+width:70px;
+    height:70px;
+   
+}
+article img{
+width: 100%;
+    height:100%;
+    text-align:center;
+    box-shadow: 6px 6px 8px #777;
+    margin-bottom: 20px;
+    
+}
+
+article p{
+font-size:16px;
+    color:white;
+}
+   article {
+padding:40px;
+}
+.sports-icon-list h4{
+    color:black;
+}
+#myFig2 h4{color:#2E8B57;font-weight:old;font-style:normal;font-family: "Comic Sans MS", cursive, sans-serif;}
+.sport-icon-list h4{
+    color:black;
+}
+
+.sports-list-top div{
+    margin-left: auto;
+    margin-right: auto;
+text-align: center;
+    
+}
+.sports-list-top a{
+    margin-left: 30px;
+    margin-right: 30px;
+display: inline-block;
+    
+}
+@media (max-width: 767px){
+    .range-list h4{
+        display:inline;
+        font-size: 18px;
+       
+    } 
+    .range-list a{
+        display:block;
+    }
+      .range-list img{
+       width: 33%;
+    height: 33%;
+          margin-right: 10px;
+          margin-bottom: 30px;
+          margin-top: 20px;
+          
+    }
+    
+}
+/*to create same size column in a multi-colmn layout*from minimit.com/articles/solutions-tuorials/bootstrap-3-responsive-column-of-same-height*/
+.container-xs-height{
+    
+    display:table;
+    padding-left: 0px;
+    padding-right: 0px; 
+    
+}
+
+.row-xs-height{
+    
+    display:table-row;
+}
+.col-xs-height{
+    
+    display:table-cell;
+    float:none;
+}
+@media(min-width:768px){
+  .container-sm-height{
+    
+    display:table;
+    padding-left: 0px;
+    padding-right: 0px; 
+    
+}  
+ .row-sm-height{
+    
+    display:table-row;
+}   
+  .col-sm-height{
+    
+    display:table-cell;
+    float:none;
+}  
+}
+@media(min-width:992px){
+  .container-md-height{
+    
+    display:table;
+    padding-left: 0px;
+    padding-right: 0px; 
+    
+}  
+ .row-md-height{
+    
+    display:table-row;
+}   
+   .col-md-height{
+    
+    display:table-cell;
+     float:none;  
+}  
+}
+@media(min-width:1200px){
+  .container-lg-height{
+    
+    display:table;
+    padding-left: 0px;
+    padding-right: 0px; 
+    
+}  
+ .row-lg-height{
+    
+    display:table-row;
+}   
+   .col-md-height{
+    
+    display:table-cell;
+     float:none;  
+}  
+}
+
+
+
+.full-width {
+  max-width: 1400px;
+}
+
+$text-color: #fff;
+
+// footer CSS
+
+.footer {
+  background-color: #2980b9;
+  padding: 2rem 4rem;
+  text-align: center;
+  color: $text-color;
+  i {
+    font-size: 100px;
+	font-family:Palatino Linotype;
+  }
+}
+
+.footer {
+  h4 {
+    color: $text-color;
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    margin-bottom: 10px;
+  }
+  p, a {
+    font-weight: 300; 
+    font-size: .8em;
+	font-family:Palatino Linotype;
+    color: $text-color;
+  }
+}
+
+@media only screen and (min-width: 40.063em) {
+.footer {
+  .columns:nth-child(n+2) {
+    border-left: 1px solid scale-color($text-color, $lightness: -30%);
+    min-height: 280px;
+  }
+ }
+}
+
+.footer-links {
+  list-style-type: none;
+  li {
+    margin-top: .5em;
+  }
+}
+
+.full-width {
+  max-width: 1400px;
+}
+
+.footer {
+  background-color: #2980b9;
+  padding: 2rem 4rem;
+  text-align: center;
+  color: #fff;
+}
+.footer i {
+  font-size: 100px;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 1em;
+  font-family:Palatino Linotype;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  margin-bottom: 10px;
+}
+.footer p, .footer a {
+  font-weight: 300;
+  font-size: .8em;
+  color: #fff;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .footer .columns:nth-child(n+2) {
+    border-left: 1px solid #b3b3b3;
+    min-height: 280px;
+  }
+}
+.footer-links {
+  list-style-type: none;
+}
+.footer-links li {
+  margin-top: .5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
