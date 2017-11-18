@@ -32,7 +32,9 @@
       <a class="navbar-brand" href="#"style="color:white;"> 
        <img class="img-responsive" style="max-height:80px;" src="{{URL::asset('images/aaarapower2.jpg') }}"/></a>
     </div>
+   <a href="/home"> <img class="img-responsive" style="max-height:40px;margin-left:20px;float:left;margin-top:60px;" src="{{URL::asset('images/aahome2.jpeg') }}"/></a>
 
+    
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
@@ -130,7 +132,7 @@
                                    <a href="#">Event Venues</a>
                                </li>
                                <li>
-                                   <a href="{{('/photos/create')}}">Upload Recent</a>
+                                   <a href="{{('/photos/create')}}">Recent uploads</a>
                                </li>
                                <li>
                                    <a href="{{('/photos')}}">Recent eventuploads </a>
@@ -312,7 +314,7 @@
                                                 </a>
 
                                                 <a href="{{('/post')}}">
-                                                        <img class="img-responsive" src="{{URL::asset('images/aaarapower7.jpeg')}}">
+                                                        <img class="img-responsive" src="{{URL::asset('images/aakisD.jpeg')}}">
                                                         <h4>Events:jan 2018
                                                             Venue:Muson centre
                                                             Lagos</h4>  
@@ -330,17 +332,23 @@
                                                                                                         Lagos</h4>  
                                                                                                                     </a>
                                                                                                                     <a href="{{('/post')}}">
-                                                                                                                        <img class="img-responsive" src="{{URL::asset('images/aaaaTIWA.jpeg')}}">
+                                                                                                                        <img class="img-responsive" src="{{URL::asset('images/aaSka.jpeg')}}">
                                                                                                                         <h4>Events:jan 2018
                                                                                                                             Venue:Muson centre
                                                                                                                             Lagos</h4>  
                                                                                                                                         </a>
-                                                                                                                                        <a href="{{('/post')}}"
-                                                                                                                                            <img class="img-responsive" src="{{URL::asset('images/aaaadav.jpeg')}}">
-                                                                                                                                            <h4>Events:jan 2018
-                                                                                                                                                Venue:Muson centre
-                                                                                                                                                Lagos</h4> 
-                                                                                                                                                            </a>
+                                                                                                                                        <a href="{{('/post')}}">
+                                                                                                                        <img class="img-responsive" src="{{URL::asset('images/aasa.jpeg')}}">
+                                                                                                                        <h4>Events:jan 2018
+                                                                                                                            Venue:Muson centre
+                                                                                                                            Lagos</h4>  
+                                                                                                                                        </a>
+                                                                                                                                        <a href="{{('/post')}}">
+                                                                                                                        <img class="img-responsive" src="{{URL::asset('images/aaatiwaS.jpeg')}}">
+                                                                                                                        <h4>Events:jan 2018
+                                                                                                                            Venue:Muson centre
+                                                                                                                            Lagos</h4>  
+                                                                                                                                        </a> 
                                                      
   </aside>
 </div>

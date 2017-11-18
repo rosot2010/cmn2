@@ -70,11 +70,11 @@
 </nav>
             <div class="content">
                 <div class="title m-b-md">
-              <a href="{{('http://localhost:8000/home')}}"style="color:black;font-weight:bold;list-style-type:none;">Music and Artist <span class="sr-only">(current)</span></a>
+              <a href="{{('home')}}"style="color:black;font-weight:bold;list-style-type:none;">Music and Artist <span class="sr-only">(current)</span></a>
                 </div>
 
                 <div class="links">
-               <a href="{{('http://localhost:8000/home')}}"> <img class="img-responsive" style="max-height:500px;" src="{{URL::asset('images/aaarapower2.jpg') }}"/></a>
+               <a href="{{('home')}}"> <img class="img-responsive" style="max-height:500px;" src="{{URL::asset('images/aaarapower2.jpg') }}"/></a>
                 </div>
             </div>
         </div>
