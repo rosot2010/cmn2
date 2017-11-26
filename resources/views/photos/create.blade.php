@@ -213,7 +213,7 @@
 
                      @section('script')
       
-      <script src="/js/dropzone.min.js"></scritp>
+      <script src="#"></scritp>
       @end          
      </footer> 
          
